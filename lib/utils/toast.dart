@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+import 'package:login_demo/common/index.dart';
 
 void showToast(message,context){
   Fluttertoast.showToast(

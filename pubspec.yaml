@@ -25,6 +25,12 @@ dependencies:
     sdk: flutter
   fluttertoast: ^7.1.6
 
+  flutter_launcher_icons: "^0.8.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/EClogo.png"
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -33,6 +39,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+flutter_native_splash:
+  image: assets/images/EClogo.png
+  fullscreen: true
+  android_gravity: center
+  ios: true
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:login_demo/common/widgets.dart';
-import 'package:login_demo/screens/login.dart';
+import 'package:login_demo/common/index.dart';
 
 class Homepage extends StatelessWidget {
   final email;
